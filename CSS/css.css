@@ -1,12 +1,37 @@
 body {
   background-color: lightblue;
 }
-
 h1 {
   color: navy;
-  margin-left: 20px;
+  font-size: 30px;
+  margin: 0px;
 }
 p{
   color:black;
-  margin-left: 30px;
+  font-size: 20px;
+  margin: 0px;
+}
+#topBar{
+  background-color: tomato;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+#mainText{
+  background-color: greenyellow;
+  text-align: left;
+  margin-top: 0px;
+}
+#main{
+  width: 100%
+}
+#leftHandSide{
+  width: 70%;
+  background-color: firebrick;
+  float: left
+}
+#rightHandSide{
+  width: 30%;
+  background-color: blueviolet;
+  float: left
 }
